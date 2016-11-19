@@ -1,0 +1,4 @@
+name = ctrl_feature_civicrm
+core = 7.x
+package = CTRL
+version = 7.x-1.0
