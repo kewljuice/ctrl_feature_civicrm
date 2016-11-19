@@ -162,9 +162,9 @@ if (!defined('CIVICRM_LOGGING_DSN')) {
 
 global $civicrm_root;
 
-$civicrm_root = '£civi_root£sites/all/modules/contrib/civicrm';
+$civicrm_root = '£civi_root£/sites/all/modules/contrib/civicrm';
 if (!defined('CIVICRM_TEMPLATE_COMPILEDIR')) {
-  define('CIVICRM_TEMPLATE_COMPILEDIR', '£civi_root£sites/default/files/civicrm/templates_c/');
+  define('CIVICRM_TEMPLATE_COMPILEDIR', '£civi_root£/sites/default/files/civicrm/templates_c/');
 }
 
 /**
