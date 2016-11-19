@@ -277,7 +277,7 @@ if (!defined('CIVICRM_MAIL_SMARTY')) {
  * You must disable CIVICRM_MAIL_LOG before CiviCRM will talk to your MTA.
  */
 // if (!defined('CIVICRM_MAIL_LOG')) {
-// define( 'CIVICRM_MAIL_LOG', '/Users/hechtwo/Workspace/generator/www/sites/default/files/civicrm/templates_c//mail.log');
+// define( 'CIVICRM_MAIL_LOG', '/Users/hechtwo/Workspace/generator/www/sites/default/files/civicrm/templates_c/mail.log');
 // }
 
 
