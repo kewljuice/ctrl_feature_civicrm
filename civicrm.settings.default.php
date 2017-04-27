@@ -227,7 +227,7 @@ if (!defined('CIVICRM_UF_BASEURL')) {
 // $civicrm_setting['Directory Preferences']['customPHPPathDir'] = '/path/to/custom-php-dir';
 
 // Override the extensions directory.
-// $civicrm_setting['Directory Preferences']['extensionsDir'] = '/path/to/extensions-dir';
+$civicrm_setting['Directory Preferences']['extensionsDir'] = '£civi_root£/sites/all/civicrm/extensions';
 
 // Override the resource url
 // $civicrm_setting['URL Preferences']['userFrameworkResourceURL'] = 'http://example.com/example-resource-url/';
@@ -239,7 +239,7 @@ if (!defined('CIVICRM_UF_BASEURL')) {
 // $civicrm_setting['URL Preferences']['customCSSURL'] = 'http://example.com/example-css-url' ;
 
 // Override the extensions resource URL
-// $civicrm_setting['URL Preferences']['extensionsURL'] = 'http://example.com/pathtoextensiondir'
+$civicrm_setting['URL Preferences']['extensionsURL'] = '£civi_url£/sites/all/civicrm/extensions'
 
 // Disable display of Community Messages on home dashboard
 // $civicrm_setting['CiviCRM Preferences']['communityMessagesUrl'] = false;
