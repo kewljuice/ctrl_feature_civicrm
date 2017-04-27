@@ -209,7 +209,7 @@ if (!defined('CIVICRM_UF_BASEURL')) {
  * Uncomment and edit the below as appropriate.
  */
 // Add this line only once above any settings overrides.
-//  global $civicrm_setting;
+global $civicrm_setting;
 
 // Override the Temporary Files directory.
 // $civicrm_setting['Directory Preferences']['customFileUploadDir'] = '/path/to/upload';
@@ -239,7 +239,7 @@ $civicrm_setting['Directory Preferences']['extensionsDir'] = '£civi_root£/site
 // $civicrm_setting['URL Preferences']['customCSSURL'] = 'http://example.com/example-css-url' ;
 
 // Override the extensions resource URL
-$civicrm_setting['URL Preferences']['extensionsURL'] = '£civi_url£/sites/all/civicrm/extensions';
+$civicrm_setting['URL Preferences']['extensionsURL'] = '£civi_url£sites/all/civicrm/extensions';
 
 // Disable display of Community Messages on home dashboard
 // $civicrm_setting['CiviCRM Preferences']['communityMessagesUrl'] = false;
