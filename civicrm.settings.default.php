@@ -227,10 +227,10 @@ global $civicrm_setting;
 // $civicrm_setting['Directory Preferences']['customPHPPathDir'] = '/path/to/custom-php-dir';
 
 // Override the extensions directory.
-$civicrm_setting['Directory Preferences']['extensionsDir'] = '£civi_root£/sites/all/civicrm/extensions';
+$civicrm_setting['Directory Preferences']['extensionsDir'] = '[cms.root]/sites/all/civicrm/extensions';
 
 // Override the resource url
-// $civicrm_setting['URL Preferences']['userFrameworkResourceURL'] = 'http://example.com/example-resource-url/';
+$civicrm_setting['URL Preferences']['userFrameworkResourceURL'] = '[civicrm.root]';
 
 // Override the Image Upload URL (System Settings > Resource URLs)
 // $civicrm_setting['URL Preferences']['imageUploadURL'] = 'http://example.com/example-image-upload-url';
@@ -239,7 +239,7 @@ $civicrm_setting['Directory Preferences']['extensionsDir'] = '£civi_root£/site
 // $civicrm_setting['URL Preferences']['customCSSURL'] = 'http://example.com/example-css-url' ;
 
 // Override the extensions resource URL
-$civicrm_setting['URL Preferences']['extensionsURL'] = '£civi_url£sites/all/civicrm/extensions';
+$civicrm_setting['URL Preferences']['extensionsURL'] = '[cms.root]/sites/all/civicrm/extensions';
 
 // Disable display of Community Messages on home dashboard
 // $civicrm_setting['CiviCRM Preferences']['communityMessagesUrl'] = false;
